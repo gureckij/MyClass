@@ -7,3 +7,4 @@ let cardsList = document.querySelector('.cards');
 
 cardsList.classList.remove('standard');
 standardViewButton.classList.remove('active');
+tileViewButtom.classList.add('active');
