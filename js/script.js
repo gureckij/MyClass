@@ -6,3 +6,4 @@ let standardViewButton = document.querySelector('.card-view-standard');
 let cardsList = document.querySelector('.cards');
 
 cardsList.classList.remove('standard');
+standardViewButton.classList.remove('active');
