@@ -15,4 +15,6 @@ tileViewButton.onclick = function () {
 standardViewButton.onclick = function () {
     /* Код переключения раскладки */
     cardsList.classList.add('standard');
+    tileViewButton.classList.remove('active');
+    standardViewButton.classList.add('active');
 };
