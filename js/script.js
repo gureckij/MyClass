@@ -8,6 +8,11 @@ let cardsList = document.querySelector('.cards');
 tileViewButton.onclick = function () {
     /* Код переключения раскладки */
     cardsList.classList.remove('standard');
-    standardViewButton.classList.remove('active');
     tileViewButton.classList.add('active');
+    standardViewButton.classList.remove('active');
+};
+
+standardViewButton.onclick = function () {
+    /* Код переключения раскладки */
+    cardsList.classList.add('standard');
 };
